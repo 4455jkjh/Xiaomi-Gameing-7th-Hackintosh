@@ -1,6 +1,9 @@
 小米7代游戏本的EFI
+
 CPU：I7-7700HQ
+
 OpenCore：0.9.1
+
 # BUG
 * 重启会卡，关机不会
 
@@ -18,9 +21,10 @@ OpenCore：0.9.1
 * 音频（AppleALC)
 * WIFI
 * NVME/SATA 硬盘
+* 蓝牙
+* Type-c 视频输出，支持音频
 
 # 不可用
-* 蓝牙
 * 触控板
 * Nvidia GPU (永远不会被支持)
 
