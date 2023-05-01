@@ -18,11 +18,15 @@ OpenCore：0.9.1
 * WIFI
 * NVME/SATA 硬盘
 * 蓝牙,支持隔空投送
-* Type-c 视频输出，支持音频
+* Type-c 视频输出，支持音频 （详见TIPS）
 
 # 不可用
 * 触控板
 * Nvidia GPU (永远不会被支持)
 * 重启会卡，关机不会
-* 睡眠
+* 睡眠（详见TIPS）
+* 无法调节屏幕亮度
+
+# TIPS
+* 在boot-args添加参数-wegnoegpu可以解决睡眠问题，但是这样type-c接口无法连接显示器，只能二选一
 
