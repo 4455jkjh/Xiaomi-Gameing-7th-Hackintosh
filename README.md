@@ -9,6 +9,8 @@ OpenCore：0.9.1
 
 # 支持的macOS版本
 * macOS 13.3.1 Ventura
+* macOS 12 Monterey
+* macOS 11 Big Sur
 * macOS 10.15 Catalina
 
 # 可用
