@@ -3,6 +3,7 @@
 CPU：I7-7700HQ
 
 OpenCore：0.9.2
+
 Clover: r5151
 
 # 解锁CFG LOCK
