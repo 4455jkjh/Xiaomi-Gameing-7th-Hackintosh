@@ -14,7 +14,7 @@ Clover: r5151
 
 # macOS14 Sonoma
 2023/06/09更新支持，EFI_14目录
-WIFI、蓝牙、CPU睿频 不可用
+WIFI、蓝牙 不可用
 OpenCore 0.9.3
 机型：MacbookPro15,2
 
