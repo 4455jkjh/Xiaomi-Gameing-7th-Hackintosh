@@ -6,17 +6,13 @@ OpenCore：0.9.3
 
 Clover: r5151
 
+机型：MacbookPro15,2
+
 # 解锁CFG LOCK
 复制EFI_ru到空U盘里面，重命名为EFI，文件系统为FAT，然后重启电脑按F12启动，按‘ALT+=’选择‘CpuSetup’项，使用方向键移动到'0x3c'位置，改为‘00’，按下‘ALT+Q'保存修改'，重启
 
 # 修改dvmt 64M
 'SaSetup'项，位置；'0xDF',改为2
-
-# macOS14 Sonoma
-2023/06/09更新支持，EFI_14目录
-WIFI、蓝牙 不可用
-OpenCore 0.9.3
-机型：MacbookPro15,2
 
 # 支持的macOS版本
 * macOS 14.0 Sonoma Beta
