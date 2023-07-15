@@ -19,13 +19,13 @@ OpenCore 0.9.3
 机型：MacbookPro15,2
 
 # 支持的macOS版本
-* macOS 14.0 Sonoma Beta (WIFI、蓝牙可用)
-* macOS 13.3.1 Ventura (WIFI、蓝牙可用)
+* macOS 14.0 Sonoma Beta
+* macOS 13.3.1 Ventura
 * macOS 12.6.5 Monterey
 * macOS 11.7.6 Big Sur
 * macOS 10.15.7 Catalina
 * macOS 10.14.6 Mojave
-* macOS 10.13.6 High Sierra (WIFI不可用、蓝牙可用)
+* macOS 10.13.6 High Sierra
 
 # 可用
 * USB3.0
