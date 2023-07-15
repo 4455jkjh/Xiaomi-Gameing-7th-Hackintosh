@@ -2,7 +2,7 @@
 
 CPU：I7-7700HQ
 
-OpenCore：0.9.2
+OpenCore：0.9.3
 
 Clover: r5151
 
@@ -19,30 +19,29 @@ OpenCore 0.9.3
 机型：MacbookPro15,2
 
 # 支持的macOS版本
-* macOS 13.3.1 Ventura
+* macOS 14.0 Sonoma Beta (WIFI、蓝牙可用)
+* macOS 13.3.1 Ventura (WIFI、蓝牙可用)
 * macOS 12.6.5 Monterey
 * macOS 11.7.6 Big Sur
 * macOS 10.15.7 Catalina
 * macOS 10.14.6 Mojave
-* macOS 10.13.6 High Sierra
+* macOS 10.13.6 High Sierra (WIFI不可用、蓝牙可用)
 
 # 可用
 * USB3.0
 * 核显
-* 音频（AppleALC)
+* 音频（AppleALC alc_id 98)
 * WIFI
 * NVME/SATA 硬盘
-* 蓝牙,支持隔空投送
-* Type-c 视频输出，支持音频 （详见TIPS）
+* 蓝牙 （未测试隔空投送)
 * 触控板
 * CPU 睿频
+* Type-c 视频输出，支持音频 （(需修改dvmt为64M)
+* 睡眠（详见TIPS）(需修改dvmt为64M)
+* 屏幕亮度调节 (需修改dvmt为64M)
 
 # 不可用
 * Nvidia GPU (永远不会被支持)
 * 重启会卡，关机不会(clover版本可重启)
-* 睡眠（详见TIPS）
-* 无法调节屏幕亮度
 
-# TIPS
-* 在boot-args添加参数-wegnoegpu可以解决睡眠问题和屏幕亮度问题，但是这样type-c接口无法连接显示器，只能二选一
 

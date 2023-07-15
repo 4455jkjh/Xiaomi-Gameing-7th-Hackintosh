@@ -382,7 +382,7 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>AirportItlwm_13.kext</string>
+				<string>13/AirportItlwm.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
@@ -400,7 +400,7 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>AirportItlwm.kext</string>
+				<string>14/AirportItlwm.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
