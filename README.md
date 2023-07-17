@@ -21,7 +21,7 @@ Clover: r5151
 * macOS 11.7.6 Big Sur
 * macOS 10.15.7 Catalina
 * macOS 10.14.6 Mojave
-* macOS 10.13.6 High Sierra
+* macOS 10.13.6 High Sierra （仅蓝牙可用)
 
 # 可用
 * USB3.0
@@ -33,8 +33,9 @@ Clover: r5151
 * 触控板
 * CPU 睿频
 * Type-c 视频输出，支持音频 （(需修改dvmt为64M)
-* 睡眠（详见TIPS）(需修改dvmt为64M)
+* 睡眠(需修改dvmt为64M)
 * 屏幕亮度调节 (需修改dvmt为64M)
+* 内建SD读卡器
 
 # 不可用
 * Nvidia GPU (永远不会被支持)

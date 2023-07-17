@@ -1105,7 +1105,7 @@
 				<key>SystemAudioVolume</key>
 				<data>QA==</data>
 				<key>boot-args</key>
-				<string>-wegnoegpu</string>
+				<string>-wegnoegpu -rtsfbeta</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
